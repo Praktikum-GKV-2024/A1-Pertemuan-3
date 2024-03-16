@@ -145,7 +145,7 @@ public:
             // TODO 6: CREATE PROJECTION FOR PROJECTION_3 (See module)
             ViewMatrix = glm::lookAt(
                 vec3(80, 100, -60),
-                vec3(30, 0, -10),
+                vec3(30, 0, -12),
                 up
             );
             
