@@ -148,6 +148,7 @@ public:
                 vec3(30, 0, -10),
                 up
             );
+            
             ProjectionMatrix = glm::perspective<float>(glm::radians(60.f), aspect_ratio, 1.0f, 500.0f);
             break;
         case CAMERA_MODE::FREE_VIEW:
